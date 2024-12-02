@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lading Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body class="main-bg">
+    <input id="close-menu" class="close-menu" type="checkbox" role="button" aria-label="Fechar menu">
+
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1><a href="#inicio" onclick="getElementById('close-menu').checked = false ">Logo</a></h1>
+            <ul onclick="getElementById('close-menu').checked = false ">
+                <li><a href="#intro">introdução</a></li>
+                <li><a href="#top3">top 3</a></li>
+                <li><a href="#galeria">galeria</a></li>
+                <li><a href="#trabalho">trabalho</a></li>
+                <li><a href="#preco">preços</a></li>
+                <li><a href="#contato">contato</a></li>
+            </ul>
+        </div>
+    </aside>
+    <section id="inicio" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>O Firefox 85 chega em janeiro</h2>
+                <p>Para encerrar janeiro, temos o orgulho de apresentar o lançamento do Firefox 85. Nesta versão,
+                    estamos trazendo suporte para a pseudo-classe :focus-visible no CSS e as ferramentas de
+                    desenvolvimento associadas, além da remoção completa do suporte ao Flash no Firefox."</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/css/img/java-script.svg"
+                    alt="Desenho de um homem segurando a logo do css, homen empurrando a logo do JS e homem ao lado da logo do html">
+            </div>
+        </div>
+    </section>
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Top 3 trabalhos</h2>
+            <p>O lançamento dos Macs da Apple no final do ano passado gerou uma enxurrada de cobertura de notícias e
+                algumas surpresas quanto ao desempenho da máquina. Esta postagem detalha algumas informações básicas
+                sobre a experiência de utilizar o Firefox nativamente nessas CPUs.</p>
+            <p>Começaremos com algumas informações básicas sobre a transição do Mac e daremos uma visão geral dos
+                componentes internos do Firefox que precisam saber sobre a nova arquitetura, antes de passarmos ao
+                conceito de Binários Universais.</p>
+            <p>Em seguida, explicaremos como o DRM/EME funciona na nova plataforma, falaremos sobre nossa experiência
+                com o macOS Big Sur e discutiremos vários problemas de atualização com os quais tivemos que lidar.
+                Concluiremos com o lançamento e uma visão geral de várias outras melhorias que estão em andamento.</p>
+        </div>
+    </section>
+    <section id="top3" class="grid-one main-bg section">
+        <div class="grid-one-content main-content">
+            <div class="intro-text-content">
+                <h2 class="grid-main-heading">Top 3 trabalhos</h2>
+                <p class="grid-descrition">Aqui estão alguns trabalhos recentes.</p>
+                <div class="grid-section">
+                    <article>
+                        <h3>Primeiro</h3>
+                        <p>Este botão adicionaria uma caixa à linha de caixas de conteúdo abaixo do texto introdutório.
+                            Isso deve colocar a caixa nesse local, independentemente de onde o usuário esteja escrevendo
+                            no momento.</p>
+                    </article>
+                    <article>
+                        <h3>Segundo</h3>
+                        <p>Eu sugeriria incluir um pop-up que permita escolher onde inserir a caixa na linha (no início
+                            ou no final), qual título atribuir à caixa, qual texto colocar dentro dela e para qual
+                            página a caixa deve direcionar. A caixa inteira deve funcionar como um link para a página de
+                            destino.</p>
+                    </article>
+                    <article>
+                        <h3>Terceiro</h3>
+                        <p>Você também pode incluir um atributo de tipo contendo o tipo MIME do recurso, para que o
+                            navegador possa rapidamente identificar quais recursos estão disponíveis e ignorar aqueles
+                            que não são compatíveis.</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="galeria" class="grid-one white-bg  section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Galeria</h2>
+            <p class="grid-descrition">Descrição</p>
+            <div class="grid-section ">
+                <div class="img-limit">
+                    <img src="https://www.pousadadossonhos.com.br/wp-content/uploads/2017/12/camarao-prato-tipico-florianopolis-1-360x360.jpg"
+                        alt="frutos do mar">
+                </div>
+                <div class="img-limit">
+                    <img src="https://www.beaune-tourisme.fr/app/uploads/beaune/2023/02/thumbs/vdv-verre-pipette-360x360-crop-1677770524.jpg"
+                        alt="vinho">
+                </div>
+                <div class="img-limit">
+                    <img src="https://aramis-wp.s3.us-west-2.amazonaws.com/2023/08/Capa-QuadradaCulturaPerif-360x360.jpg"
+                        alt="favela">
+                </div>
+                <div class="img-limit">
+                    <img src="https://gabrielamarcondes.com.br/wp-content/uploads/2018/05/IMAGEM-1-360x360-1.jpg"
+                        alt="selfie de mulher">
+                </div>
+                <div class="img-limit">
+                    <img src="https://www.plantte.com/wp-content/uploads/2023/03/carne-de-soja-pts-360x360.jpg"
+                        alt="macarrão">
+                </div>
+                <div class="img-limit">
+                    <img src="https://casadaovelha.com.br/fotos/noticias/pq_i4ets0.png" alt="ovelha">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="trabalho" class="grid-one main-bg section">
+        <div class="grid-one-content main-content">
+            <div class="intro-text-content">
+                <h2 class="grid-main-heading">Top 3 trabalhos</h2>
+                <p class="grid-descrition">Aqui estão alguns trabalhos recentes.</p>
+                <div class="grid-section">
+                    <article>
+                        <h3>A good one
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores tenetur facere iste ad
+                            distinctio mollitia inventore doloribus nesciunt quasi commodi rem adipisci, dolorem nulla
+                            quos? Cupiditate, consequuntur veritatis. Repudiandae, eveniet!</p>
+                    </article>
+                    <article>
+                        <h3>Great job</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum odio nemo ducimus velit illo
+                            sapiente nihil molestiae est voluptatem, repudiandae ipsum officia quo repellendus doloribus
+                            at animi nam! Error, id.</p>
+                    </article>
+                    <article>
+                        <h3>The best</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam necessitatibus corporis
+                            sapiente numquam in. Explicabo aperiam aliquid ratione atque expedita ipsam reiciendis,
+                            officia iste suscipit aut deleniti, necessitatibus, fugit dolorem.</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="preco" class=" white-bg section">
+        <div class="main-content top3-content">
+            <h2>Preços</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur mollitia molestiae magni fuga
+                perferendis veritatis, ea maiores esse corporis perspiciatis at excepturi corrupti quasi? Ut
+                consequuntur quas eius fugiat provident.</p>
+            <div class="responsive-table">
+                <table>
+                    <caption>tabela de preços</caption>
+                    <thead>
+                        <tr>
+                            <th>Titulo1</th>
+                            <th>Titulo2</th>
+                            <th>Titulo3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Conteudo 1</td>
+                            <td>Conteudo 1</td>
+                            <td>Conteudo 1</td>
+                        </tr>
+                        <tr>
+                            <td>Conteudo 1</td>
+                            <td>Conteudo 1</td>
+                            <td>Conteudo 1</td>
+                        </tr>
+                        <tr>
+                            <td>Conteudo 1</td>
+                            <td>Conteudo 1</td>
+                            <td>Conteudo 1</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td coLspan="3">testando</td>
+                        </tr>
+                    </tfoot>
+
+                </table>
+            </div>
+        </div>
+    </section>
+    <section id="contato" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Contato</h2>
+                <p>A baixo segue o formulario de contato, tambem serve apra envio de sujestões e avaliações."</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/css/img/contatc.svg"
+                    alt="Mulher segurando uma carta grande com um celular ao lado e um telefone.">
+            </div>
+            <div class="formulario">
+                <form>
+                    <p>Formulário de Contato</p>
+                    <div class="input-group">
+                        <div>
+                            <label for="nome">Primeiro nome</label>
+                            <input class="imp" type="text" id="nome" name="nome" placeholder="Seu primeiro nome">
+                        </div>
+                        <div>
+                            <label for="sobrenome">Segundo nome</label>
+                            <input class="imp" type="text" id="sobrenome" name="sobrenome" placeholder="Seu sobrenome">
+                        </div>
+                    </div>
+                    <label for="email">Email</label>
+                    <input class="imp" type="email" id="email" name="email" placeholder="e-mail">
+
+                    <label for="mensagem">Sua mensagem:</label>
+                    <textarea class="text" id="mensagem" name="mensagem"
+                        placeholder="Digite sua mensagem aqui"></textarea>
+
+                    <button class="enviar-form" type="submit">Enviar mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="white-bg">
+        <p><a rel="nofollow" target="_blank" href="#">Feito por Anderson Silva.</a></p>
+    </footer>
+
+</html>
