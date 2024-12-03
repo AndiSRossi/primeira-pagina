@@ -153,8 +153,6 @@ img {
     list-style: none;
     display: flex;
     margin-left: auto;
-    /* Empurra os itens para o lado direito */
-
 }
 
 .menu ul li a {
@@ -211,7 +209,6 @@ img {
 }
 
 .intro-content {
-    /*top: -8rem;*/
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: var(--gap);
@@ -388,14 +385,6 @@ textarea {
     margin-bottom: 4rem;
 }
 
-/*.voltar-ao-inicio {
-    position:fixed;
-    bottom: 2rem;
-    right: 2rem;
-    background-color: var(--white-color);
-
-}*/
-
 @media (max-width: 800px) {
 
     .intro-content,
@@ -435,7 +424,7 @@ textarea {
         z-index: 2;
         top: 2rem;
         right: 2rem;
-        color: var(--white-color);
+        color: #283b4e85;
         font-size: 3rem;
         line-height: 3rem;
         width: 3rem;
@@ -443,9 +432,11 @@ textarea {
         text-align: center;
         padding: 0.5rem;
         cursor: pointer;
+        border: 0.1rem solid rgba(0, 0, 0, 0.164);
+        border-radius: 5px;
 
-         color: var(--white-color);
-          mix-blend-mode:difference;
+         /*(color: var(--white-color);
+          mix-blend-mode:difference;*/
     }
 
     .close-menu:checked~.menu {
