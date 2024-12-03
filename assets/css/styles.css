@@ -2,7 +2,6 @@
     max-width: 100%;
     margin: 0;
     padding: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 :root {
@@ -22,8 +21,6 @@ body,
 html {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
-
 }
 
 h1,
@@ -35,7 +32,8 @@ h6 {
     font-family: "Montserrat", sans-serif;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    white-space: normal;
+    white-space:initial;
+    text-align: center;
 }
 
 body {
@@ -53,13 +51,13 @@ h1 {
 
 h2 {
     text-transform: uppercase;
-    font-size: 6rem;
+    font-size: clamp(4rem, 5vw, 5rem); 
     margin-bottom: 5rem;
     line-height: 1.2;
 }
 
 h3 {
-    font-size: 5rem;
+    font-size: 4.6rem;
 
 }
 
@@ -117,19 +115,21 @@ thead {
     overflow-x: auto;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
 
 .menu {
     position: fixed;
+    z-index: 2;
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
     border-bottom: 0.1rem solid var(--light-gray-cor);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 .menu-content {
@@ -251,11 +251,12 @@ img {
 }
 
 .grid-main-heading {
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .grid-descrition {
     padding-bottom: 3rem;
+    text-align: center;
 
 }
 
@@ -407,9 +408,10 @@ textarea {
     }
 
     .menu {
+        z-index: 20000;
         bottom: 0;
         text-align: center;
-    }
+        }
 
     .menu-content,
     .menu-content ul {
