@@ -424,7 +424,7 @@ textarea {
         z-index: 2;
         top: 2rem;
         right: 2rem;
-        color: #283b4e85;
+        color: #3c5874a9;
         font-size: 3rem;
         line-height: 3rem;
         width: 3rem;
@@ -432,8 +432,6 @@ textarea {
         text-align: center;
         padding: 0.5rem;
         cursor: pointer;
-         (color: var(--white-color);
-          mix-blend-mode:difference;
     }
 
     .close-menu:checked~.menu {
