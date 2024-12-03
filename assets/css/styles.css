@@ -432,11 +432,8 @@ textarea {
         text-align: center;
         padding: 0.5rem;
         cursor: pointer;
-        border: 0.1rem solid rgba(0, 0, 0, 0.164);
-        border-radius: 5px;
-
-         /*(color: var(--white-color);
-          mix-blend-mode:difference;*/
+         (color: var(--white-color);
+          mix-blend-mode:difference;
     }
 
     .close-menu:checked~.menu {
